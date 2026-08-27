@@ -1,5 +1,9 @@
 # Task 1: Data Cleaning & Preprocessing (Titanic)
 
+## Author
+- **Name:** PURAB ROY  
+- **Email:** roy.purab.28@gmail.com  
+
 ## Objective
 Learn how to clean and prepare raw data for machine learning using Python, Pandas, NumPy, and Matplotlib/Seaborn.
 
