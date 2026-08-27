@@ -18,7 +18,8 @@ Learn how to clean and prepare raw data for machine learning using Python, Panda
 4. Encoded categorical features (`Sex`, `Embarked`) using one‑hot encoding.
 5. Standardized numerical features using `StandardScaler`.
 6. Detected outliers using boxplots on `Age`, `Fare`, and `SibSp`.
-7. Removed outliers using the IQR rule.
+7. Removed outliers using the IQR rule **on raw numerical features before scaling and encoding**.  
+   *Note: In this educational task, outlier removal is applied to the full dataset. In a production ML pipeline, IQR statistics would be computed only on the training set to avoid data leakage. An optional cell in the notebook demonstrates a leakage-safe approach.*
 8. Built a preprocessing pipeline ready for machine learning models.
 
 ## How to Run
